@@ -5,16 +5,16 @@
 		"expiresIn":86400
 	},
 	"upload_config":{
-		"baseURL":"http://127.0.0.1:8888",
+		"baseURL":"http://localhost:8888",
 		"upload_ueditor":"uploads/ueditor",
 		"simple_upload_redirect":"http://127.0.0.1/reload"
 	},
-	"db_config" : {
-		"protocol" : "mysql",
-		"host" : "127.0.0.1",
-		"database" : "mydb",
-		"user" : "root",
-		"password" : "root",
-		"port" : 3306
+	"db_config": {
+		"protocol": "mysql",
+		"host": "mysql-db",
+		"port": 3306,
+		"user": "root",
+		"password": "123456",
+		"database": "api_db_mysql"
 	}
 }
